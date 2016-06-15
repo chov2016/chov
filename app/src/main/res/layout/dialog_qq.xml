@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_dialog_trans"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/q1"
+        android:layout_width="280dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="192dip"
+        android:background="@color/bg_color"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/q2"
+            android:layout_width="match_parent"
+            android:layout_height="42dip" >
+
+            <TextView
+                android:id="@+id/qq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="QQ"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/q3"
+            android:layout_width="match_parent"
+            android:layout_height="52dip"
+            android:background="@color/more_grey" >
+
+            <EditText
+                android:id="@+id/edt_qq"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:layout_marginTop="5dip"
+                android:layout_gravity="center"
+                android:background="@color/more_grey"
+                android:maxEms="8"
+                android:textColor="@color/white" >
+
+                <requestFocus />
+            </EditText>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/q4"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/btn_qq_cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:src="@drawable/selector_btn_cross" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/imageqq1"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_gravity="center_vertical"
+                android:background="#534F4F" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/btn_qq_save"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:src="@drawable/selector_btn_tick" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

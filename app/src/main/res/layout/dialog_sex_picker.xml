@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_dialog_trans"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="280dip"
+        android:layout_height="110dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="236dip"
+        android:background="@color/bg_color"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/btn_sex_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dip"
+                android:layout_marginTop="16dip"
+                android:src="@drawable/selector_btn_sex_male" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="13dip"
+            android:layout_marginTop="13dip"
+            android:layout_gravity="center_vertical"
+            android:background="#534F4F" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/btn_sex_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dip"
+                android:layout_marginTop="16dip"
+                android:src="@drawable/selector_btn_sex_female" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="13dip"
+            android:layout_marginTop="13dip"
+            android:layout_gravity="center_vertical"
+            android:background="#534F4F"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/btn_sex_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dip"
+                android:layout_marginTop="16dip"
+                android:src="@drawable/selector_btn_sex_other" />
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>
